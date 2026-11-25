@@ -17,8 +17,8 @@ export const projects = [
     'Lucide React'
   ],
   image: '/images/DeveloperPortfolio.png',
-  github: '',
-  live: '',
+  github: 'https://github.com/sadiq-bilal/My-Portfolio/tree/main/my-portfolio',
+  live: 'https://my-portfolio-dun-chi-26.vercel.app/',
   problem: todo(
     'Provides a centralized professional platform to showcase development skills, projects, experience and services while making it easy for recruiters and potential clients to get in touch.'
   ),

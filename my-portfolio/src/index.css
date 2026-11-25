@@ -84,10 +84,10 @@ body {
   .hero-photo {
     position: absolute;
     top: 6rem;
-    bottom: 2.5rem;
     right: max(1.25rem, calc((100vw - 72rem) / 2 + 1.25rem));
-    width: min(34rem, 38vw);
-    height: auto;
+    width: min(28rem, 34vw);
+    max-width: none;
+    height: auto;          /* height now comes from aspect-[4/5] */
     margin: 0;
   }
 }

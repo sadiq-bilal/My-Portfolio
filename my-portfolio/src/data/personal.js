@@ -7,7 +7,7 @@ export const personal = {
   email: 'sadiqbilal.work@gmail.com',
   photo: '/images/profile.jpeg',
   resume: '/Resume.pdf',
-  education: ['[Bachelor of Engineering, ISL ENgineering College, 2022-2026]'],
+  education: ['[Bachelor of Engineering, ISL ENgineering College, 74.45 (cgpa), 2022-2026]'],
   objective: 'I am looking for a frontend developer internship.',
   about: [
     'I am a Computer Science graduate focused on frontend web development.',

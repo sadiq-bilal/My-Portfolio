@@ -18,7 +18,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative overflow-hidden">
-      <div className="hero-photo mx-5 mt-20 h-[32rem] overflow-hidden rounded-2xl border border-line sm:mx-8">
+      <div className="hero-photo mx-auto mt-20 aspect-[4/5] w-[calc(100%-2.5rem)] max-w-sm overflow-hidden rounded-2xl border border-line">
         <img
           src={personal.photo}
           alt={`Portrait of ${personal.name}`}
