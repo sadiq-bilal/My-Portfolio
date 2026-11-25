@@ -1,48 +1,203 @@
-# Your Name | Developer Portfolio
+# Mohammad Sadiq Bilal | Developer Portfolio
 
-A responsive personal portfolio website built with React, Vite, Tailwind CSS and Motion. It has a dark theme by default, a light theme toggle, smooth animations and a working contact form.
+A modern, responsive personal portfolio website built with **React, Vite, Tailwind CSS, Motion, and Lucide React**. It showcases my technical skills, projects, professional journey, and freelance services.
 
-**Live demo:** https://your-site.vercel.app
+🌐 **Live Demo:** https://my-portfolio-dun-chi-26.vercel.app/
 
-## Features
+---
 
-- Dark and light theme
-- Responsive design for mobile, tablet and desktop
-- Sticky navbar with mobile menu
-- Sections: Hero, About, Skills, Projects, Services, Journey, Contact
-- Smooth scroll animations
+## ✨ Features
+
+- Modern and responsive user interface
+- Dark and light theme toggle
+- Smooth animations and scroll transitions
+- Sticky navigation bar with mobile menu
+- Hero section with personal introduction
+- About me and developer journey
+- Technical skills showcase
+- Projects with screenshots and descriptions
+- Freelance services section
 - Contact form with validation
+- Social media and professional profile links
+- Responsive layouts for desktop, tablet, and mobile
 
-## Built with
+## 🛠️ Tech Stack
 
-- React
-- Vite
-- Tailwind CSS
-- Motion (Framer Motion)
-- Lucide React
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| Vite | Development and build tool |
+| Tailwind CSS | Styling and responsive design |
+| Motion | Animations and transitions |
+| Lucide React | Icons |
+| JavaScript | Application functionality |
+| Git & GitHub | Version control |
+| Vercel | Deployment and hosting |
 
-## Run locally
+## 📁 Project Structure
+
+```text
+my-portfolio/
+│
+├── public/
+│   ├── images/
+│   │   ├── ClientBook.png
+│   │   ├── CRUD-App.png
+│   │   ├── DeveloperPortfolio.png
+│   │   ├── Melody.png
+│   │   ├── movieSearch.png
+│   │   ├── PhotoGallery.png
+│   │   ├── profile.jpeg
+│   │   ├── RockPaperScissors.png
+│   │   ├── ShopEase.png
+│   │   └── WeatherApp.png
+│   │
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src/
+│   ├── components/
+│   │   ├── Button.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── Reveal.jsx
+│   │   ├── SectionTitle.jsx
+│   │   ├── SkillCard.jsx
+│   │   └── ThemeToggle.jsx
+│   │
+│   ├── config/
+│   │   └── siteConfig.js
+│   │
+│   ├── data/
+│   │   ├── personal.js
+│   │   ├── products.js
+│   │   ├── projects.js
+│   │   ├── sections.js
+│   │   ├── skills.js
+│   │   └── socialLinks.js
+│   │
+│   ├── hooks/
+│   │   ├── useActiveSection.js
+│   │   └── useTheme.js
+│   │
+│   ├── sections/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Freelance.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Journey.jsx
+│   │   ├── Products.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   │
+│   ├── utils/
+│   │   └── prefill.js
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/dev-portfolio.git
-cd dev-portfolio
+git clone https://github.com/sadiq-bilal/my-portfolio.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd my-portfolio
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
-cp .env.example .env
+```
+
+### 4. Start the development server
+
+```bash
 npm run dev
 ```
 
-Then open http://localhost:5173
+Open the local development server in your browser:
 
-## Build for production
+```text
+http://localhost:5173
+```
+
+## 📦 Production Build
+
+Build the project for production:
 
 ```bash
 npm run build
 ```
 
-## Deployment
+Preview the production build locally:
 
-Deployed on Vercel. Every push to the `main` branch updates the live site.
+```bash
+npm run preview
+```
 
-## Author
+## 🌍 Deployment
 
-**Mohammad Sadiq Bilal**
+The portfolio is deployed using **Vercel**.
+
+The GitHub repository is connected to Vercel for automatic deployment.
+
+- Every push to the `main` branch triggers a new deployment.
+- Vercel automatically builds the latest source code.
+- The updated website is published using the same live URL.
+
+## 💻 Featured Projects
+
+Some of my frontend development projects include:
+
+- **Melody:** A music streaming interface inspired by YouTube Music.
+- **ShopEase:** An e-commerce frontend website.
+- **Weather App:** A weather application with city-based search.
+- **Movie Search:** A movie search interface.
+- **CRUD App:** An application demonstrating Create, Read, Update, and Delete operations.
+- **ClientBook:** A client management application.
+- **Photo Gallery:** A responsive photo gallery.
+- **Rock Paper Scissors:** A browser-based interactive game.
+
+## 👨‍💻 About Me
+
+Hi! I'm **Mohammad Sadiq Bilal**, a Computer Science and Engineering graduate passionate about frontend development and modern web technologies.
+
+I enjoy creating responsive, user-friendly web applications and turning ideas into functional digital experiences.
+
+I'm continuously learning and improving my skills in JavaScript, React.js, UI development, and modern frontend technologies.
+
+My goal is to grow as a frontend developer by building practical projects and contributing to real-world applications.
+
+## 🔗 Connect With Me
+
+- **GitHub:** https://github.com/sadiq-bilal
+- **LinkedIn:** https://www.linkedin.com/in/sadiq-bilal-7423b3
+- **Portfolio:** https://my-portfolio-dun-chi-26.vercel.app/
+- **Email:** sadiqbilal.work@gmail.com
+
+---
+
+⭐ If you find my work interesting, feel free to explore my projects and share your feedback.
+
+**Designed and developed by Mohammad Sadiq Bilal.**
