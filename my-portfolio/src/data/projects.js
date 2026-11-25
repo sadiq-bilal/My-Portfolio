@@ -128,7 +128,7 @@ export const projects = [
     ],
     image: "/images/ClientBook.png",
     github: "https://github.com/sadiq-bilal/React-JS/tree/main/Advanced/clientbook",
-    live: "https://react-js-wwry.vercel.app/login",
+    live: "https://clientbook-sigma.vercel.app",
     problem: todo(
       "Helps businesses organize customer information, track sales opportunities and manage follow-up activities in one centralized platform.",
     ),

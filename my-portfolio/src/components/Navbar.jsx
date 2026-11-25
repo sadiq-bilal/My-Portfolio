@@ -6,7 +6,7 @@ import { useActiveSection } from '../hooks/useActiveSection.js'
 import { personal } from '../data/personal.js'
 
 const LEFT = ['about', 'projects', 'skills']
-const RIGHT = ['journey', 'products', 'contact']
+const RIGHT = ['journey', 'contact'] // add products in future
 export const SECTION_IDS = ['home', ...LEFT, ...RIGHT]
 
 function NavLinks({ ids, active, className = '' }) {
@@ -71,7 +71,8 @@ export default function Navbar({ theme, onToggleTheme }) {
               <li key={id}>
                 <a
                   href={`#${id}`}
-                  onClick={() => setMenuOpen(false)}
+                  // onClick={() => setMenuOpen(false)}
+                  onClick={() => window.setTimeout(() => setMenuOpen(false), 0)}
                   className={`block px-5 py-3 capitalize ${active === id ? 'text-acc' : 'text-mute'}`}
                 >
                   {id}
