@@ -1,0 +1,58 @@
+import { Blocks, FileCode, FileText, LayoutTemplate, Package, Rocket } from 'lucide-react'
+
+export const products = [
+  {
+    title: 'Portfolio Website Template',
+    type: 'Template',
+    format: 'React + Tailwind',
+    icon: LayoutTemplate,
+    description: 'A responsive portfolio starter that is easy to edit and deploy.',
+    price: '',
+    link: '',
+  },
+  {
+    title: 'Landing Page Template Pack',
+    type: 'Template',
+    format: 'HTML + CSS',
+    icon: Rocket,
+    description: 'Landing pages for products, events and services.',
+    price: '',
+    link: '',
+  },
+  {
+    title: 'React UI Component Kit',
+    type: 'Code',
+    format: 'React.js',
+    icon: Blocks,
+    description: 'Reusable buttons, cards, forms and layouts for React projects.',
+    price: '',
+    link: '',
+  },
+  {
+    title: 'Expense Tracker Source Code',
+    type: 'Code',
+    format: 'HTML, CSS, JavaScript',
+    icon: FileCode,
+    description: 'A beginner-friendly project to study and extend.',
+    price: '',
+    link: '',
+  },
+  {
+    title: 'Frontend Cheat Sheets',
+    type: 'Guide',
+    format: 'PDF',
+    icon: FileText,
+    description: 'Quick-reference notes for HTML, CSS, JavaScript and React.',
+    price: '',
+    link: '',
+  },
+  {
+    title: 'Starter Bundle',
+    type: 'Bundle',
+    format: 'Mixed',
+    icon: Package,
+    description: 'Templates, components and guides in one download.',
+    price: '',
+    link: '',
+  },
+]

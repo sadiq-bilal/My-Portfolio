@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-mute: var(--mute);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-acc: var(--acc);
+  --color-lime: var(--lime);
+  --color-on: var(--on);
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+:root {
+  --bg: #050805;
+  --fg: #f2f7ee;
+  --mute: #a9b5a2;
+  --card: #0c120a;
+  --line: #1f3317;
+  --acc: #6fdc22;
+  --lime: #6fdc22;
+  --on: #061003;
+}
+
+:root.light {
+  --bg: #f6faf2;
+  --fg: #0b1608;
+  --mute: #4b5a43;
+  --card: #fff;
+  --line: #d9e6cf;
+  --acc: #2f7d0a;
+  --lime: #6fdc22;
+  --on: #0b1608;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Only the hero headline uses Sora */
+h1 {
+  font-family: 'Sora', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background:
+    radial-gradient(
+      60rem 38rem at 88% -4%,
+      color-mix(in srgb, var(--lime) 20%, transparent),
+      transparent 65%
+    ),
+    var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+:focus-visible {
+  outline: 2px solid var(--acc);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before {
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* On large screens the hero photo sits on the right, lined up with the page content */
+@media (min-width: 1024px) {
+  .hero-photo {
+    position: absolute;
+    top: 6rem;
+    bottom: 2.5rem;
+    right: max(1.25rem, calc((100vw - 72rem) / 2 + 1.25rem));
+    width: min(34rem, 38vw);
+    height: auto;
+    margin: 0;
+  }
+}
